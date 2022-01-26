@@ -1,7 +1,7 @@
 package com.platzi.market.persistence.entity;
 
-import jdk.jfr.DataAmount;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,7 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Data
+@Getter
+@Setter
 @Table(name = "Clientes")
 public class Cliente {
 
