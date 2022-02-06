@@ -1,7 +1,5 @@
 package com.platzi.market.persistence.entity;
 
-import net.bytebuddy.dynamic.loading.InjectionClassLoader;
-
 import javax.persistence.*;
 import java.util.List;
 
@@ -45,4 +43,11 @@ public class Categoria {
         this.estado = estado;
     }
 
+    public List<Producto> getProductos() {
+        return productos;
+    }
+
+    public void setProductos(List<Producto> productos) {
+        this.productos = productos;
+    }
 }
