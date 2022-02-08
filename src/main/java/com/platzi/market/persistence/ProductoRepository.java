@@ -1,7 +1,7 @@
 package com.platzi.market.persistence;
 
 import com.platzi.market.domain.Product;
-import com.platzi.market.domain.repositoy.ProductRepository;
+import com.platzi.market.domain.repository.ProductRepository;
 import com.platzi.market.persistence.crud.ProductoCrudRepository;
 import com.platzi.market.persistence.entity.Producto;
 import com.platzi.market.persistence.mapper.ProductMapper;
