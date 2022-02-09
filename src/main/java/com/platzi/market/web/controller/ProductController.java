@@ -1,4 +1,4 @@
-package com.platzi.market.web.controler;
+package com.platzi.market.web.controller;
 
 import com.platzi.market.domain.Product;
 import com.platzi.market.domain.service.ProductService;
@@ -8,7 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/products")

@@ -4,7 +4,7 @@ import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
 
 @Entity
-@Table(name = "compras_producto")
+@Table(name = "compras_productos")
 public class ComprasProducto {
 
     @EmbeddedId
@@ -72,4 +72,6 @@ public class ComprasProducto {
     public void setProducto(Producto producto) {
         this.producto = producto;
     }
+
+
 }
