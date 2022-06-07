@@ -6,6 +6,7 @@ build/
 !**/src/test/**/build/
 src/main/resources/bd/
 postman/
+examen
 
 ### STS ###
 .apt_generated
